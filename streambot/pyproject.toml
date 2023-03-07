@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "streambot"
+version = "1.0.0"
+description = "An OpenAI ChatGPT wrapper to simplify streaming of token responses to give the writing effect."
+authors = ["dr00 <andrewmeyer23@gmail.com>"]
+readme = "README.md"
+license = "LICENSE.txt"
+keywords = ["chatgpt", "stream", "openai"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sseclient-py = "^1.7.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
